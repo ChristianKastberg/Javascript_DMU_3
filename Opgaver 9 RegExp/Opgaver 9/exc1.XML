@@ -1,0 +1,28 @@
+Lav en XML-fil, 
+der beskriver nogle personer med navn,
+alder og evt. mobil samt en adresse. Adressen er underopdelt i gade og by. 
+<?xml version="1.0" encoding="UTF-8"?>
+<List> 
+
+<person> <navn>Person A</navn> 
+<mNummer>2210 </mNummer>
+<adresse> 
+    <gade> RejeVej </gade>
+    <by> Aarhus </by>
+</adresse>
+</person>
+
+<person>Person B</person>
+<beskrivelse>2220 </beskrivelse>
+<adresse> SkoDal
+<by> Hobro </by>
+</adresse>
+
+<person>Person C</person>
+<beskrivelse>2230 </beskrivelse>
+<adresse> SønderVang
+<by> Randers </by>
+</adresse>
+
+
+</List>

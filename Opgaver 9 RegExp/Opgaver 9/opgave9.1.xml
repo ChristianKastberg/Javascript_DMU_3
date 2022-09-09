@@ -1,0 +1,21 @@
+<!-- opgave9.1 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<personer>
+  <person>
+    <navn>Ida</navn>
+    <alder>21</alder>
+    <mobil>12345678</mobil>
+    <adresse>
+      <gade>Vestergade 21</gade>
+      <by>Aarhus</by>
+    </adresse>
+  </person>
+  <person>
+    <navn>Viggo</navn>
+    <alder>83</alder>
+    <adresse>
+      <gade>Nørregade 83</gade>
+      <by>Randers</by>
+    </adresse>
+  </person>
+</personer>
