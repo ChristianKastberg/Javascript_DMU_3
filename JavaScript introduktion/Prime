@@ -1,0 +1,12 @@
+for(let counter = 2; counter <= 100; counter++){
+    let isPrime = true;
+    for(let lower = 2; lower < counter; lower++){
+        if(counter % lower == 0){ 
+            isPrime = false;
+            break;
+        }
+    }
+    if(isPrime == true){
+        console.log(counter);
+    }
+}
