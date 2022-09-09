@@ -1,0 +1,15 @@
+{{!-- index.hbs --}}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+</head>
+<body>
+    <table>
+        {{#each filnavne}}
+            <a href="{{.}}">{{.}}</a><br>
+            {{!-- <a href="kat1.jpg">kat1.jpg</a><br> --}}
+        {{/each}}
+    </table>
+</body>
+</html>

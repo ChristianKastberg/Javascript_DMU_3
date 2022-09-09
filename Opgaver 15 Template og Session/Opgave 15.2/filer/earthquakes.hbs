@@ -1,0 +1,11 @@
+{{!-- earthquakes.hbs --}}
+<table>
+    {{#each earthquakes}}
+        <tr>
+            <td>{{properties.mag}}</td>
+            <td>{{properties.place}}</td>
+            <td>{{properties.time}}</td>
+            {{!-- <td>{{new Date(properties.time).toLocaleDateString()}}</td> --}}
+        </tr>
+    {{/each}}
+</table>
